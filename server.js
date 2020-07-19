@@ -1,6 +1,12 @@
 const express = require('express');
-
+const connectDB = require('./config/db');
 const app = express();
+
+// Connect Database
+connectDB();
+
+// Init Middleare
+app.use(express.json({ extended: false }));
 
 // Adding a route
 // Takes an arrow function with a request and response object

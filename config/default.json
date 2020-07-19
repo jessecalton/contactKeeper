@@ -1,0 +1,5 @@
+// Global variables go here
+
+{
+  "mongoURI": "mongodb+srv://jesse:jesse@contactkeeper.folbd.mongodb.net/ContactKeeper?retryWrites=true&w=majority"
+}
