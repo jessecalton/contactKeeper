@@ -42,12 +42,7 @@ const ContactForm = () => {
       updateContact(contact);
     }
     // resets the form
-    setContact({
-      name: '',
-      email: '',
-      phone: '',
-      type: 'personal',
-    });
+    clearAll();
   };
 
   const clearAll = () => {
